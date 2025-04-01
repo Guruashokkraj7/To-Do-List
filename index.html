@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-container">
+        <div class="quotes">
+            <h2 id="quote"></h2>
+            <p id="author"></p>
+        </div>
+    </div>    
+    <div class="container">
+        <h1>TO-DO LIST <img src="images/todo.png" width="50px" height="50px"></h1>
+        <div class="task-container">
+            <input id="input-box" type="text" placeholder="Enter a Task" autocomplete="off">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="task-list">
+            <ul id="task-items">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
